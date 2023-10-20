@@ -20,6 +20,7 @@ def por_fenomeno(df_fenomeno):
                       x='start year', 
                       y='severity',
                       color='phenomenon',
+                      title='Severidade dos Fenômenos Climáticos',
                       labels={
                           'start year': 'Início do Fenômeno',
                           'severity': 'Severidade', 
