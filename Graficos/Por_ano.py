@@ -25,4 +25,7 @@ def por_ano(df):
         font=dict(size=10, color="grey"), 
         align="left"
     )
+    fig_date.update_layout(
+        autosize=True
+    )
     return fig_date
