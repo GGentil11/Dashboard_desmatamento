@@ -45,7 +45,7 @@ def por_fenomeno(df_fenomeno):
             yanchor="top",
             y=0.99,
             xanchor="right",
-            x=1
+            x=1.05
         )
     )
     return fig_date
