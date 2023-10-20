@@ -16,8 +16,8 @@ def menu_radio():
 
 def escolha_radio(tipo_pesquisa, df, df_fenomeno):
     if tipo_pesquisa == 'Por ano':
-        st.plotly_chart(por_ano(df), use_container_width=True)
+        st.plotly_chart(por_ano(df), use_container_width=True, config={'displayModeBar': False})
     elif tipo_pesquisa == 'Por estado':
-        st.plotly_chart(por_estado(df), use_container_width=True)
+        st.plotly_chart(por_estado(df), use_container_width=True, config={'displayModeBar': False})
     elif tipo_pesquisa == 'Influência de Fenômenos Climáticos':
-        st.plotly_chart(por_fenomeno(df_fenomeno), use_container_width=True)
+        st.plotly_chart(por_fenomeno(df_fenomeno), use_container_width=True, config={'displayModeBar': False})
