@@ -24,7 +24,7 @@ def por_fenomeno(df_fenomeno):
                       labels={
                           'start year': 'Início do Fenômeno',
                           'severity': 'Severidade', 
-                          'phenomenon': 'Nome do Fenômeno Climático'
+                          'phenomenon': 'Fenômeno Climático'
                       })
     fig_date.add_annotation(
         text = ('Fonte: Golden Gate Weather Services'), 
