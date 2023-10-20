@@ -40,4 +40,12 @@ def por_fenomeno(df_fenomeno):
         font=dict(size=10, color="grey"), 
         align="left"
     )
+    fig_date.update_layout(
+        legend=dict(
+            yanchor="top",
+            y=0.99,
+            xanchor="right",
+            x=1
+        )
+    )
     return fig_date
