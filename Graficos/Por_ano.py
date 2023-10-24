@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 import plotly.express as px
 
 def por_ano(df):
@@ -24,8 +23,5 @@ def por_ano(df):
         yshift=-5, 
         font=dict(size=10, color="grey"), 
         align="left"
-    )
-    fig_date.update_layout(
-        autosize=True
     )
     return fig_date
